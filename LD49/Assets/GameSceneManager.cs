@@ -9,7 +9,7 @@ public class GameSceneManager : MonoBehaviour {
 
 	public bool sceneActive = true;
 
-	float timerMax = 240f;
+	float timerMax = 120f;
 	float currentTimeLeft;
 
 	public static float currentBloodSugar = 1f;
@@ -32,6 +32,7 @@ public class GameSceneManager : MonoBehaviour {
 		if (sceneActive) {
 			if (currentTimeLeft > 0) {
 				currentTimeLeft -= Time.deltaTime;
+				UIMan.AlterTimerBar(currentTimeLeft/timerMax);
 			}
 			else {
 				LastedToParents();

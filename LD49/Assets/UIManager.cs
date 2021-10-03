@@ -16,6 +16,8 @@ public class UIManager : MonoBehaviour {
 	[SerializeField] Image bloodMeter;
 	float bloodSugarDrainRate = .05f;
 
+	[SerializeField] Image timerBar;
+
 	[SerializeField] Text damagesText;
 
 	[SerializeField] Image crosshair;
@@ -52,6 +54,12 @@ public class UIManager : MonoBehaviour {
 
 	public void AlterDamagesText() {
 		damagesText.text = "Total Damages: $" + sceneMan.totalDamageCaused;
+	}
+
+
+	public void AlterTimerBar(float amount) {
+		//float timerScaleX = amount;
+		timerBar.fillAmount = amount;
 	}
 
 

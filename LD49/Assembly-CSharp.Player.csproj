@@ -53,21 +53,21 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayerMove.cs" />
-    <Compile Include="Assets\PlayerInteraction.cs" />
-    <Compile Include="Assets\Interactable.cs" />
-    <Compile Include="Assets\PickupInteractable.cs" />
-    <Compile Include="Assets\UIManager.cs" />
-    <Compile Include="Assets\StationaryInteractable.cs" />
-    <Compile Include="Assets\GameSceneManager.cs" />
     <Compile Include="Assets\KidMove.cs" />
+    <Compile Include="Assets\PlayerInteraction.cs" />
     <Compile Include="Assets\KidInteract.cs" />
-    <Compile Include="Assets\NavManager.cs" />
-    <Compile Include="Assets\KidAggroManager.cs" />
-    <Compile Include="Assets\PickupManager.cs" />
-    <Compile Include="Assets\AggroObject.cs" />
-    <Compile Include="Assets\PlayerHealth.cs" />
     <Compile Include="Assets\MenuManager.cs" />
+    <Compile Include="Assets\GameSceneManager.cs" />
+    <Compile Include="Assets\NavManager.cs" />
+    <Compile Include="Assets\PickupInteractable.cs" />
+    <Compile Include="Assets\KidAggroManager.cs" />
+    <Compile Include="Assets\AggroObject.cs" />
+    <Compile Include="Assets\StationaryInteractable.cs" />
+    <Compile Include="Assets\Interactable.cs" />
+    <Compile Include="Assets\UIManager.cs" />
+    <Compile Include="Assets\PlayerHealth.cs" />
+    <Compile Include="Assets\PlayerMove.cs" />
+    <Compile Include="Assets\PickupManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
